@@ -1,11 +1,11 @@
-/* Reset some default styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base styles */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9fbfd;
@@ -14,7 +14,7 @@ body {
   padding: 0;
 }
 
-/* Header */
+
 header {
   background: linear-gradient(120deg, #007bff, #0056b3);
   color: white;
@@ -42,7 +42,7 @@ header p {
   font-size: 16px;
 }
 
-/* Navigation */
+
 nav {
   background-color: #ffffff;
   padding: 20px;
@@ -68,7 +68,7 @@ nav a:hover {
   color: #007bff;
 }
 
-/* Sections */
+
 section {
   max-width: 1000px;
   margin: 40px auto;
@@ -86,7 +86,7 @@ section h2 {
   padding-left: 10px;
 }
 
-/* Skills */
+
 ul {
   padding-left: 20px;
 }
@@ -95,7 +95,7 @@ li {
   margin-bottom: 8px;
 }
 
-/* Projects */
+
 ol {
   padding-left: 25px;
 }
@@ -105,7 +105,7 @@ ol li {
   margin-top: 10px;
 }
 
-/* Table */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -124,7 +124,7 @@ table th {
   color: white;
 }
 
-/* Contact Form */
+
 form {
   display: flex;
   flex-direction: column;
@@ -167,7 +167,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 25px;
@@ -177,7 +177,7 @@ footer {
   color: #777;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 30px;
